@@ -1,0 +1,10 @@
+.jumbotron{
+    background-color: red;
+    height: 200px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: green;
+}

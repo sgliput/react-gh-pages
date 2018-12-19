@@ -1,0 +1,17 @@
+.imgArea{
+    background-color: red;
+}
+
+.card{
+    background-color: red;
+    border: none;
+    margin: 2rem 2rem;
+  position: relative;
+  display: inline;
+}
+
+.hanksimg{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
