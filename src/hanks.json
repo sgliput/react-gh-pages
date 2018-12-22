@@ -2,105 +2,105 @@
     {
       "id": 1,
       "name": "TomHanks1",
-      "image": "/images/splash.jpg",
+      "image": "./images/splash.jpg",
       "movie": "Splash",
       "answered": false
     },
     {
       "id": 2,
       "name": "TomHanks2",
-      "image": "/images/big.jpg",
+      "image": "./images/big.jpg",
       "movie": "Big",
       "answered": false
     },
     {
       "id": 3,
       "name": "TomHanks3",
-      "image": "/images/leagueoftheirown.jpg",
+      "image": "./images/leagueoftheirown.jpg",
       "movie": "A League of Their Own",
       "answered": false
     },
     {
         "id": 4,
         "name": "TomHanks4",
-        "image": "/images/sleepless.jpg",
+        "image": "./images/sleepless.jpg",
         "movie": "Sleepless in Seattle",
         "answered": false
       },
       {
         "id": 5,
         "name": "TomHanks5",
-        "image": "/images/philadelphia.jpg",
+        "image": "./images/philadelphia.jpg",
         "movie": "Philadelphia",
         "answered": false
       },
       {
         "id": 6,
         "name": "TomHanks6",
-        "image": "/images/forrestgump.jpg",
+        "image": "./images/forrestgump.jpg",
         "movie": "Forrest Gump",
         "answered": false
       },
       {
         "id": 7,
         "name": "TomHanks7",
-        "image": "/images/apollo13.jpg",
+        "image": "./images/apollo13.jpg",
         "movie": "Apollo 13",
         "answered": false
       },
       {
         "id": 8,
         "name": "TomHanks8",
-        "image": "/images/savingprivateryan.jpg",
+        "image": "./images/savingprivateryan.jpg",
         "movie": "Saving Private Ryan",
         "answered": false
       },
       {
         "id": 9,
         "name": "TomHanks9",
-        "image": "/images/youvegotmail.jpg",
+        "image": "./images/youvegotmail.jpg",
         "movie": "You've Got Mail",
         "answered": false
       },
       {
         "id": 10,
         "name": "TomHanks10",
-        "image": "/images/greenmile.jpg",
+        "image": "./images/greenmile.jpg",
         "movie": "The Green Mile",
         "answered": false
       },
       {
         "id": 11,
         "name": "TomHanks11",
-        "image": "/images/castaway.jpg",
+        "image": "./images/castaway.jpg",
         "movie": "Cast Away",
         "answered": false
       },
       {
         "id": 12,
         "name": "TomHanks12",
-        "image": "/images/terminal.jpg",
+        "image": "./images/terminal.jpg",
         "movie": "The Terminal",
         "answered": false
       },
       {
         "id": 13,
         "name": "TomHanks13",
-        "image": "/images/cloudatlas.jpg",
+        "image": "./images/cloudatlas.jpg",
         "movie": "Cloud Atlas",
         "answered": false
       },
       {
         "id": 14,
         "name": "TomHanks14",
-        "image": "/images/captainphillips.jpg",
+        "image": "./images/captainphillips.jpg",
         "movie": "Captain Phillips",
         "answered": false
       },
       {
         "id": 15,
         "name": "TomHanks15",
-        "image": "/images/savingmrbanks.jpg",
+        "image": "./images/savingmrbanks.jpg",
         "movie": "Saving Mr. Banks"
       }
   ]
