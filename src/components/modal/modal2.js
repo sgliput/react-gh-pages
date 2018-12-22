@@ -2,10 +2,10 @@ import React from "react";
 import "./modal.css";
 
 
-function Modal(props) {
+function Modal2(props) {
 
     // Get the modal
-const modal = document.getElementById('congratsModal');
+const modal = document.getElementById('congratsModal2');
 
 // Get the <span> element that closes the modal
 //const span = document.getElementsByClassName("close")[0];
@@ -20,7 +20,7 @@ window.onclick = function(event) {
 } 
 
     return (
-        <div id="congratsModal" className="modal" style={display}>
+        <div id="congratsModal2" className="modal" style={display}>
             <div className="modal-content">
                 <div className="modal-header">
                 <h2>Congratulations!</h2>
@@ -28,10 +28,10 @@ window.onclick = function(event) {
                     
                 </div>
                 <div className="modal-body">
-                    <p>Well done! You clicked all of them!</p>
-                    <p>Tom Hanks would be proud.</p>
-                    <p>Want to test yourself further?</p>
-                    <button className="yes" onClick={props.level2}>Sure</button> &nbsp; <button className="no" onClick={props.onHide}>No, thanks</button> 
+                    <p>Outstanding!!</p>
+                    <p>You are a true Tom Hanks aficionado.</p>
+                    <p>Want to play again?</p>
+                    <button className="yes" onClick={props.restart}>Sure</button> 
                 </div>
             </div>
         </div>
@@ -39,4 +39,4 @@ window.onclick = function(event) {
 }
 
 
-export default Modal;
+export default Modal2;
