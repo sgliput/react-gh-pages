@@ -11,7 +11,7 @@ import _ from "underscore";
 class App extends Component {
   state = {
     count: 0,
-    movies: movies,
+    movies,
     alreadyClicked: [],
     level2: false,
     showModal: "none",
@@ -23,6 +23,7 @@ class App extends Component {
 
   // handleIncrement increases this.state.count by 1
   handleIncrement = id => {
+
     if (!this.state.level2) {
       if (!this.state.alreadyClicked.includes(movies[id - 1])) {
 
@@ -68,7 +69,7 @@ class App extends Component {
   }
 
 
-  handleLevel2 = (e, movieName) => {
+  handleLevel2 = (e, movieName, id) => {
 
     onkeypress = (e) => {
       e.target.oldvalue = e.target.value;
@@ -79,18 +80,23 @@ class App extends Component {
 
       if (this.state.input.toLowerCase() === movieName.toLowerCase()) {
         e.target.style.border = "5px solid green";
+        if (!movies[id - 1].answered) {
 
-        if (this.state.numberCorrect < 14) {
-          this.setState({ numberCorrect: this.state.numberCorrect + 1 });
-          console.log("Number Correct: " + this.state.numberCorrect);
-        } else {
-          this.setState({ showModal2: "block" });
+          movies[id - 1].answered = true;
+          if (this.state.numberCorrect < 14) {
+            this.setState({ numberCorrect: this.state.numberCorrect + 1 });
+            console.log("Number Correct: " + this.state.numberCorrect);
+
+          } else {
+            this.setState({ showModal2: "block" });
+          }
         }
       } else {
         e.target.style.border = "5px solid red";
       }
-
     }
+
+
   }
 
   restart = () => {

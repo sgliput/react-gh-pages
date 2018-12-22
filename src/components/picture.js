@@ -15,7 +15,7 @@ function TomHanksPic(props) {
             <img className="hanksimg card-img-top" alt={movie.name} src={movie.image} onClick={() => props.handleIncrement(movie.id)} />
             <div className="card-body" style={display}>
             <label>Guess the movie!</label>
-                <input type="text" className="form-control" id={movie.id} onKeyUp={(e) => props.handleLevel2(e, movie.movie)}
+                <input type="text" className="form-control" id={movie.id} onKeyUp={(e) => props.handleLevel2(e, movie.movie, movie.id)}
                 //{this.val() === movie.name ? document.getElementById(movie.id).style.border="2px solid green" : document.getElementById(movie.id).style.border="2px solid red"} 
                 />
             </div>
