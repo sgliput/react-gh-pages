@@ -3,21 +3,9 @@ import "./modal.css";
 
 
 function Modal(props) {
-
-    // Get the modal
-const modal = document.getElementById('congratsModal');
-
-// Get the <span> element that closes the modal
-//const span = document.getElementsByClassName("close")[0];
-
+    
+//Object to set display property of modal to either "none" or "block"
 const display = {display: `${props.show}`};
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target === modal) {
-    modal.style.display = "none";
-  }
-} 
 
     return (
         <div id="congratsModal" className="modal" style={display}>

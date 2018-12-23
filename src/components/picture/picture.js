@@ -2,13 +2,10 @@ import React from "react";
 import "./picture.css";
 
 function TomHanksPic(props) {
-
+    //Object to set display property of input fields to either "none" or "block"
     const display = {display: `${props.showInput}`};
-    //const correct = {border: "2px solid green"};
-    //const incorrect = {border: "2px solid red"};
-   
-   
 
+    //Maps over movie array to generate cards using values from the array elements and click events from props
     const movieProps = props.movies.map(movie => (
       
         <div className="card" key={movie.id}>
@@ -16,7 +13,6 @@ function TomHanksPic(props) {
             <div className="card-body" style={display}>
             <label>Guess the movie!</label>
                 <input type="text" className="form-control" id={movie.id} onKeyUp={(e) => props.handleLevel2(e, movie.movie, movie.id)}
-                //{this.val() === movie.name ? document.getElementById(movie.id).style.border="2px solid green" : document.getElementById(movie.id).style.border="2px solid red"} 
                 />
             </div>
         </div>

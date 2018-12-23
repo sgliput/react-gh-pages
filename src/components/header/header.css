@@ -1,0 +1,86 @@
+.jumbotron{
+    background-color: red;
+    height: 250px;
+    margin: 2%;
+    padding: 1.5%;
+    border-radius: 20px;
+}
+
+.container{
+    background-color: red;
+    padding: 10px 0;
+    border: 3px solid green;
+}
+
+.counter{
+    background-color: red;
+    right: 65%;
+    left: 40%;
+    z-index: 100;
+    width: 20%;
+    border-radius: 20px;
+}
+
+h1, h3{
+    text-align: center;
+    color: green;
+    text-shadow: 1px 1px black;
+}
+
+.instructions{
+    text-align: center;
+    padding-top: 20px;
+}
+
+p{
+    line-height: 0.8rem;
+   font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1037px) {
+    .counter {
+      width: 25%;
+      right: 70%;
+      left: 37%;
+    }
+    p{
+        line-height: 1.1rem;
+    }
+    .jumbotron{
+        height: 270px;
+    }
+  }
+
+  @media screen and (max-width: 830px) {
+    .counter{
+        width: 30%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .container{
+        max-width: 98%;
+    }
+  }
+
+  @media screen and (max-width: 736px) {
+    .jumbotron{
+        height: 310px;
+    }
+    .counter{
+        width: 40%;
+        right: 75%;
+        left: 30%;
+    }
+  }
+
+  @media screen and (max-width: 523px) {
+    .jumbotron{
+        height: 324px;
+    }
+    .counter{
+        width: 50%;
+        right: 80%;
+        left: 25%;
+    }
+  }
